@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <main>
+            <div class="containerBox"
+                ondragenter="dragenter(event, this)" 
+                ondragleave="dragleave(this)" ondragover="dragover(event, this)" 
+                ondrop="drop(this)"
+            >      
+                <div class="dragableItem"
+                    draggable="true" 
+                    ondragstart="dragstart(this)"
+                ></div> 
+            </div>
+            <div class="containerBox"
+                ondragenter="dragenter(event, this)" 
+                ondragleave="dragleave(this)" ondragover="dragover(event, this)" 
+                ondrop="drop(this)"
+            >
+            </div>
+        </main>
+        <script src="js/index.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+    </body>
+</html>
